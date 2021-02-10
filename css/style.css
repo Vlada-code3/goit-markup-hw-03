@@ -447,7 +447,17 @@ border: none;
     display: flex;
 }
 .projects-list-table {
-    display: flex;
+       width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects-table{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px;
+    
 }
 .portfolio .project {
 font-family: Roboto;
