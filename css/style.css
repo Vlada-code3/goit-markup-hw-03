@@ -182,24 +182,13 @@ margin: 0 auto 30px;
     padding: 10px 32px;
     width: 200px;
     height: 50px;
-    color: #FFFFFF;
+    color: #FFFFFF;    
     font-family: Roboto;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.86;
-    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;   
 }
-/** .order-service-text {
-    font-family: Roboto;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.86;
-display: inline-block;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-}**/
+/** **/
 
 
 /** solutions conteiner **/
@@ -414,7 +403,7 @@ color: rgba(255, 255, 255, 0.6);
 
 /** portfolio page **/
 .portfolio-conteiner {
-    width: 1170px;
+    width: 1200px;
 
 padding-left: 15px;
 padding-right: 15px;
@@ -428,9 +417,10 @@ padding-right: 15px;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    
 }
-.nav-button{
+.nav-button {
+margin-right: 8px;
+padding: 6px 22px;
 background: #F5F4FA;
 font-family: Roboto;
 font-weight: 500;
@@ -440,6 +430,7 @@ text-align: center;
 letter-spacing: 0.03em;
 border-radius: 4px;
 color: #212121;
+border: none;
 }
 
 
@@ -450,6 +441,13 @@ color: #212121;
 .portfolio .nav-button:focus {
     color: #FFFFFF;
     background-color:var(--accent-color );
+}
+.projects-table  {
+    padding-bottom: 94px;
+    display: flex;
+}
+.projects-list-table {
+    display: flex;
 }
 .portfolio .project {
 font-family: Roboto;
