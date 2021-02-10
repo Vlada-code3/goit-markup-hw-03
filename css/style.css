@@ -43,7 +43,9 @@ ul {
 p {
     margin: 0;
 }
-h1 {
+h1, 
+h2, 
+h3 {
 margin: 0;
 }
 
@@ -192,9 +194,7 @@ margin: 0 auto 30px;
 
 
 /** solutions conteiner **/
-.solutions-section {
-    
-}
+
 .solutions-conteiner {
     margin-left: auto;
     margin-right: auto;
@@ -208,7 +208,7 @@ margin: 0 auto 30px;
 
 }
 .solutions-title {
-    visibility: hidden;
+    display: block;
 
 }
 .solution-block:not(:nth-child(4n)) {
