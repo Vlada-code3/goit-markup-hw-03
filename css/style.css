@@ -243,6 +243,8 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--text-title-color);
+margin-top: 0;
+margin-bottom: 10px;
 }
 
 .par-text-solution {
@@ -257,6 +259,7 @@ color: var(--primary-text-color);
 /** Works samples container **/
 .works-samples-container {
     padding-bottom: 94px;
+
 }
 .work-conteiner {
     margin-left: auto;
@@ -274,17 +277,17 @@ line-height: 1.31;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--text-title-color);
+padding-bottom: 50px;
+
 }
+
 .work-samples-list {
     
-        display: flex;
-    padding-bottom: 94px;
-    padding-top: 94px;
+     display: flex;
     justify-content: space-between;
 }
 .work-photo{
         width: 370px;
-    padding-bottom: 94px;
 }
 .work-photo:not(:nth-child(3n)) {
     margin-right: 30px;
