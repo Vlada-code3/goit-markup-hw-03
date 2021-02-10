@@ -377,6 +377,7 @@ color: var(--primary-text-color);
     padding-top: 60px;
     padding-bottom: 60px;
 height: 252px;
+ background-color:#2F303A ;
 }
 .footer-conteiner {
     margin-left: 200px;
@@ -405,9 +406,7 @@ text-align: left;
 margin-bottom: 9px;
     color: #FFFFFF;
 }
-.footer-block {
-    background-color:#2F303A ;
-}
+
 .footer-email  {
     display: block;
     font-family: Roboto;
