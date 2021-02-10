@@ -85,6 +85,8 @@ margin: 0;
 .header {
     border-bottom: 1px solid #ECECEC;
     width: 1600px;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 .conteiner {
     width: 1200px;
