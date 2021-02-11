@@ -434,16 +434,23 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 /** portfolio page **/
+.portfolio {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content:center;
+
+}
 .portfolio-conteiner {
     width: 1200px;
-padding-top: 94px;
 padding-left: 15px;
 padding-right: 15px;
  margin-left: auto;
     margin-right: auto;
 }
 .title-work {
-    visibility: hidden;
+    display: none;
 }
 .portfolio-button {
     display: flex;
@@ -501,7 +508,12 @@ margin-top: 30px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 }
-
+.name {
+    width: 370px;
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    background-color: #FFFFFF;
+}
 
 .projects-table h3 {
         font-weight: 700;
@@ -510,16 +522,13 @@ border: 1px solid #EEEEEE;
     line-height: 2;
     text-align: left;
     color: var(--text-title-color);
-    margin-top: 20px;
-    margin-left: 24px;
     margin-bottom: 4px;
 }
 .projects-table p {
  font-size: 16px;
     line-height: 1.87;
-    margin-top: 4px;
-    margin-left: 24px;
-    margin-bottom: 20px;
+   margin-top: 0;
+    margin-bottom: 0;
 color: var(--primary-text-color);
 }
 
