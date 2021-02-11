@@ -505,6 +505,10 @@ a.link-further{
     display: block;
     text-decoration: none;
 }
+.link-further:hover {
+   
+   text-decoration:none;}
+
 .image-portfolio{
 display: block;
 }
