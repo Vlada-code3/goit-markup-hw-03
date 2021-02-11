@@ -301,6 +301,8 @@ padding-bottom: 50px;
     background: #F5F4FA;
     display: flex;
     justify-content:center;
+    padding-top: 94px;
+    padding-bottom: 94px;
     
    
 }
@@ -384,8 +386,9 @@ height: 252px;
     margin: 0 auto;
     margin-right: 0;
     width: 1200px;
-    background-color:#2F303A;
+    
 }
+
 
 .logo-footer {
     display: block;
