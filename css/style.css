@@ -381,7 +381,7 @@ height: 252px;
  background-color:#2F303A ;
 }
 .footer-conteiner {
-    margin-left: auto;
+    margin-left: 0 auto;
     margin-right: 0;
     width: 1200px;
     background-color:#2F303A;
